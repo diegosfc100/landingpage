@@ -146,3 +146,51 @@ nav a:hover {
     padding-bottom: 10px;
     padding-top: 15px;
 }
+
+
+/* Segunda parte da page, parte de baixo*/
+
+#geral {
+    display:flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex:2;    
+}
+
+#geral aside {
+    flex:1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color:black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget-content-departments {
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+.widget-content-departments div {
+    flex: 1;
+    height: 130px;
+    margin: 12px;
+    flex-direction: row;
+    background-color: #36a9e1;
+  justify-content: space-between;
+}
